@@ -12,6 +12,9 @@
         },
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "io.github.fdolzanes1.appgarcon"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.github.fdolzanes1.appgarcon"
         }
     },
     "dependent_plugins": {}

@@ -9,6 +9,9 @@
     </author>
     <content src="index.html" />
     <preferences name="Orientation" value="portrait" />
+    <icon src="resources\ios\icon\icon-small@3x.png" />
     <preference name="Fullscreen" value="false" />
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
 </widget>
