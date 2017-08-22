@@ -15,6 +15,9 @@
         },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "io.github.fdolzanes1.appgarcon"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "io.github.fdolzanes1.appgarcon"
         }
     },
     "dependent_plugins": {}

@@ -12,6 +12,9 @@
         <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="BarcodeScanner">
+        <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
+    </feature>
     <name>Garçon So de Cenoura</name>
     <description>
         App para o uso dos garçons dentro do Restaurante. 
@@ -45,6 +48,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
-    <preference name="StatusBarBackgroundColor" value="#E86C13" />
+    <preference name="android-build-tool" value="gradle" />
     <preference name="BackgroundColor" value="0xF2F2F2FF" />
+    <preference name="StatusBarBackgroundColor" value="#E86C13" />
 </widget>
