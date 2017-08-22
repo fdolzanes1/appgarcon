@@ -23,6 +23,10 @@
                         {
                             "xml": "<feature name=\"BarcodeScanner\"><param name=\"android-package\" value=\"com.phonegap.plugins.barcodescanner.BarcodeScanner\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Vibration\"><param name=\"android-package\" value=\"org.apache.cordova.vibration.Vibration\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -51,6 +55,10 @@
                         {
                             "xml": "<uses-feature android:name=\"android.hardware.camera\" android:required=\"true\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+                            "count": 1
                         }
                     ]
                 }
@@ -71,6 +79,9 @@
             "PACKAGE_NAME": "io.github.fdolzanes1.appgarcon"
         },
         "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "io.github.fdolzanes1.appgarcon"
+        },
+        "cordova-plugin-vibration": {
             "PACKAGE_NAME": "io.github.fdolzanes1.appgarcon"
         }
     },
@@ -99,6 +110,15 @@
             "clobbers": [
                 "cordova.plugins.barcodeScanner"
             ]
+        },
+        {
+            "id": "cordova-plugin-vibration.notification",
+            "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+            "pluginId": "cordova-plugin-vibration",
+            "merges": [
+                "navigator.notification",
+                "navigator"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -106,6 +126,7 @@
         "cordova-plugin-splashscreen": "4.0.3",
         "cordova-plugin-statusbar": "2.2.3",
         "cordova-plugin-compat": "1.0.0",
-        "phonegap-plugin-barcodescanner": "6.0.8"
+        "phonegap-plugin-barcodescanner": "6.0.8",
+        "cordova-plugin-vibration": "2.1.5"
     }
 }

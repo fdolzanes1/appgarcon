@@ -58,6 +58,7 @@ $('.acao-finalizar').on('click', function() {
 
         success: function(resposta) {
           Materialize.toast('Pedido Realizado com Sucesso', 3000);
+          navigator.vibrate(3000);
            $('#numero-mesa').val('');
            $('.badge').remove();
         }, 

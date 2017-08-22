@@ -18,6 +18,9 @@
         },
         "phonegap-plugin-barcodescanner": {
             "PACKAGE_NAME": "io.github.fdolzanes1.appgarcon"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "io.github.fdolzanes1.appgarcon"
         }
     },
     "dependent_plugins": {}
