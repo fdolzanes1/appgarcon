@@ -7,6 +7,9 @@
     <author email="fdolzanes1@gmail.com" href="https://fdolzanes1.github.io">
         Fabiano M Dolzanes
     </author>
+    
+    <access origin="http://*.sergiolopes.org" />
+
     <content src="index.html" />
     <preferences name="Orientation" value="portrait" />
     <preference name="Fullscreen" value="false" />
