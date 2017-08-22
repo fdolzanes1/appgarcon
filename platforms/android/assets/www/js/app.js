@@ -1,9 +1,6 @@
 $('.collection')
     .on('click', '.collection-item', function(){
 
-    	var nomeProduto = this.firstChild.textContent;
-		Materialize.toast(nomeProduto + ' Adicionado', 1000, 'rounded');
-
         var $badge = $('.badge', this);
         if ($badge.length === 0) {
             $badge = $('<span class="badge brown-text">0</span>')
@@ -38,7 +35,7 @@ $('.acao-limpar').on('click', function() {
 });
 
 $('.pedir').on('click', function() {
-    Materialize.toast('Pedido Realizado com Sucesso', 3000, 'rounded' );
+    Materialize.toast('Pedido Realizado com Sucesso', 3000,);
     $('#numero-mesa').val('');
     $('.badge').remove();
 });

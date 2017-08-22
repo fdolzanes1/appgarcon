@@ -2,17 +2,13 @@
 <widget id="io.github.fdolzanes1.appgarcon" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Garçon So de Cenoura</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        App para o uso dos garçons dentro do Restaurante. 
     </description>
     <author email="fdolzanes1@gmail.com" href="https://fdolzanes1.github.io">
         Fabiano M Dolzanes
     </author>
     <content src="index.html" />
-    <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
+    <preferences name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
 </widget>
